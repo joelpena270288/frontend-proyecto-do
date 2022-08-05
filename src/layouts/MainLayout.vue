@@ -31,11 +31,7 @@
 
       </q-toolbar>
 
-      <q-tabs align="left">
-        <q-route-tab to="/page1" label="Page One" />
-        <q-route-tab to="/page2" label="Page Two" />
-        <q-route-tab to="/page3" label="Page Three" />
-      </q-tabs>
+
     </q-header>
 
     <q-drawer v-model="leftDrawerOpen" side="left" overlay bordered>
@@ -49,8 +45,8 @@
     <q-footer reveal elevated class="bg-grey-8 text-white">
       <q-toolbar>
         <q-toolbar-title>
-         
-          <div align="center">copyright</div>
+
+          <div align ="center">copyright</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
